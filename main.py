@@ -221,9 +221,7 @@ Your input : """) #primary input about the formula
         print("Error.Please try again with a valid input.")
         continue
 
-print("""Made by SamSquare.All rights reserved by Sentra Inc.""")
-#The formulas in this program assume that your object is being moved around on a flat surface with accelaration.
-#Trying to use it with any scenarios with deaccelaration or negative values will probably result in an error.
+print("""Made by SamSquare.""")
 
 
 
