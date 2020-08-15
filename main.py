@@ -221,7 +221,7 @@ Your input : """) #primary input about the formula
         print("Error.Please try again with a valid input.")
         continue
 
-print("""Made by SamSquare.""")
+
 
 
 
