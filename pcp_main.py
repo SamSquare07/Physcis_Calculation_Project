@@ -222,6 +222,10 @@ Your input : """) #primary input about the formula
         continue
 
 
+exit_prompt = input("\nPress any key to exit the program ")
+
+
+
 
 
 
