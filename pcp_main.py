@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
 def get_v():
     u = float(input("Enter your u : "))
@@ -62,7 +62,7 @@ def get_t2():
     u = float(input("Enter your u : "))
     s = float(input("Enter your s : "))
     special_char = u ** 2 - 4 * 0.5 * a * -s
-    ans = (-u + math.sqrt(special_char)) / (2 * (0.5 * a))
+    ans = (-u + sqrt(special_char)) / (2 * (0.5 * a))
     print("t = ",ans)
 #Formula 2
 
@@ -71,7 +71,7 @@ def get_v2():
     u = float(input("Enter your u : "))
     a = float(input("Enter your a : "))
     s = float(input("Enter your s : "))
-    print(" v  = ",math.sqrt(u**2 + 2*a*s))
+    print(" v  = ",sqrt(u**2 + 2*a*s))
 #Formula 3
 
 
@@ -79,7 +79,7 @@ def get_u3():
     v = float(input("Enter your v : "))
     a = float(input("Enter your a : "))
     s = float(input("Enter your s : "))
-    print(" u  = ",math.sqrt(v**2 - 2*a*s))
+    print(" u  = ",sqrt(v**2 - 2*a*s))
 #Formula 3
 
 
