@@ -50,9 +50,9 @@ def get_u2():
 
 
 def get_a2():
-    s = float(input("Enter your  : "))
-    u = float(input("Enter your  : "))
-    t = float(input("Enter your  : "))
+    s = float(input("Enter your s : "))
+    u = float(input("Enter your u : "))
+    t = float(input("Enter your t : "))
     print("a  = ", (2*s - 2*u*t) / t**2 )
 #Formula 2
 
@@ -92,9 +92,9 @@ def get_s2():
 
 
 def get_a3():
-    v = float(input("Enter your  : "))
-    u = float(input("Enter your  : "))
-    s = float(input("Enter your  : "))
+    v = float(input("Enter your v : "))
+    u = float(input("Enter your u : "))
+    s = float(input("Enter your s : "))
     print("a = ",(v**2 - u**2)/2*s )
 #Formula 3
 print("""Special note :
@@ -222,7 +222,7 @@ Your input : """) #primary input about the formula
         continue
 
 
-exit_prompt = input("\nPress any key to exit the program ")
+exit_prompt = input("\nPress any key to exit the program ") #Only used to stop the program from abruptly shutting down in the .exe version
 
 
 
