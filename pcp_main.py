@@ -97,6 +97,7 @@ def get_a3():
     s = float(input("Enter your s : "))
     print("a = ",(v**2 - u**2)/2*s )
 #Formula 3
+error_text = "Error. Please give a valid input." 
 print("""Special note :
 The formulas in this program assume that your object is being moved around on a flat surface with accelaration.
 Trying to use it with any scenarios with deaccelaration or negative values will probably result in an error.
@@ -120,7 +121,7 @@ Your input : """) #primary input about the formula
                     get_v()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
 
             elif user_input_secondary_1 == "u":
@@ -128,24 +129,24 @@ Your input : """) #primary input about the formula
                     get_u()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_1 == "a":
                 try:
                     get_a()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_1 == "t":
                 try:
                     get_t()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
         else:
-            print("Error.Please try again with a valid input.")
+            print(error_text)
             continue
     elif user_input_primary == "2":
         user_input_secondary_2 = input("Enter your unknown value (s/u/a/t) : ")
@@ -156,31 +157,31 @@ Your input : """) #primary input about the formula
                     get_s()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_2 == "u":
                 try:
                     get_u2()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_2 == "a":
                 try:
                     get_a()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_2 == "t":
                 try:
                     get_t2()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
         else:
-            print("Error.Please try again with a valid input.")
+            print(error_text)
             continue
     elif user_input_primary == "3":
         user_input_secondary_3 = input("Enter your unknown value (s/u/a/s) : ")
@@ -191,34 +192,34 @@ Your input : """) #primary input about the formula
                     get_v2()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_3 == "u":
                 try:
                     get_u3()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_3 == "a":
                 try:
                     get_a3()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
             elif user_input_secondary_3 == "s":
                 try:
                     get_s2()
                     break
                 except ValueError:
-                    print("Error.Please try again with a valid input.")
+                    print(error_text)
                     continue
         else:
-            print("Error.Please try again with a valid input.")
+            print(error_text)
             continue
     else:
-        print("Error.Please try again with a valid input.")
+        print(error_text)
         continue
 
 
